@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #242424;
+    color: #63ab8c;
+}
+h1 {
+    text-align: center;
+    margin-top: 2em;
+    margin-bottom: 0.75em;
+    font-size: 3rem;
+}
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.buttons button {
+    padding: 1.25em;
+    border-radius: 20px 20px;
+    background-color: #63ab8c;
+    color: #fff;
+    font-size: 1em;
+}
+.rematch {
+    display: none;
+}
+.container {
+    margin-top: 5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.board {
+    width: 385px;
+    background-color: #63ab8c;
+    display: none;
+    grid-template-columns: 125px 125px 125px;
+    grid-template-rows: 125px 125px 125px;
+    gap: 5px;
+}
+.field {
+    height: 125px;
+    width: 125px;
+    background-color: #242424;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5rem;
+    cursor: pointer;
+}
